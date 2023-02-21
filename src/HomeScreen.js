@@ -17,13 +17,13 @@ function HomeScreen() {
             />
             <Row
                 title='Trending Now'
-                fetchUrl={requests.fetchNetflixOriginals}
-                isLargeRow
+                fetchUrl={requests.fetchTrending}
+
             />
             <Row
                 title='Top Rated'
                 fetchUrl={requests.fetchTopRated}
-                isLargeRow
+
             />
 
             <Row
@@ -47,7 +47,7 @@ function HomeScreen() {
             />
             <Row
                 title='Doumentaries'
-                fetchUrl={requests.fetchDocumentsries}
+                fetchUrl={requests.fetchDocumentaries}
 
             />
 
