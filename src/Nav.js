@@ -7,11 +7,11 @@ function Nav() {
 
     const transitionNavBar = () => {
         if (window.scrollY > 100) {
-            handleShow(true)
+            handleShow(true);
         } else {
-            handleShow(false)
+            handleShow(false);
         }
-    }
+    };
 
     useEffect(() => {
         window.addEventListener('scroll', transitionNavBar);
